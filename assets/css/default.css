@@ -149,6 +149,7 @@ article.post:first-child h2.title {
 @media (min-width: 576px) {
   .blog-description h1 {
     color: white;
+    border-bottom: none;
   }
 }
 
