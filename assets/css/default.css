@@ -93,6 +93,7 @@ ul.menu li:hover {
   justify-content: center;
 }
 .blog-description h1 {
+  text-align: center;
   font-size:25px;
   font-weight:300;
   line-height: 32px;
@@ -148,14 +149,23 @@ article.post:first-child h2.title {
 
 @media (min-width: 576px) {
   .blog-description h1 {
-    color: white;
     border-bottom: none;
+  }
+  .cover {
+    max-height: 200px;
   }
 }
 
 @media (min-width: 768px) {
   .cover {
     max-height: 200px;
+  }
+}
+
+@media (min-width: 992px){
+  .blog-description h1 {
+    color: whitesmoke;
+    border-bottom: none;
   }
 }
 
